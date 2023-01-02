@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my web</title>
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" >
+
+</head>
+<body>
+    <!-- container -->
+    <div class="container" id="top">
+
+        <!-- topbar -->
+        <div class="top-bar">
+            <h3 class="intro">Introducing New Air Travel</h3>
+            <p>Learn more</p>
+        </div>
+        <!-- end top bar -->
+        <!-- navbar -->
+        <div class="navbar">
+            <h1>my logo</h1>
+            <div class="search">
+                <form>
+                    <input type="text" placeholder="Enter here"/>
+                    <div>
+                        <button>
+                            <i class="fa fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+                </form>
+                
+            </div>
+            <!-- menu -->
+            <div class="menu">
+                <ul class="nav-menu">
+                    <li>
+                        <a onclick="closeMenu()" href="#listing" class="nav-link">Listings</a>
+                    </li>
+                    <li>
+                        <a onclick="closeMenu()" href="#featured" class="nav-link">Featured</a>
+                    </li>
+                    <li>
+                        <a onclick="closeMenu()" href="#popular" class="nav-link">Popular</a>
+                    </li>
+                </ul>
+                <div onclick="mobileMenu();" class="mobile">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <!-- end of navbar -->
+        <!-- filter bar -->
+        <div class="sort-bar">
+            <div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <p>Home</p>
+            </div>
+            <div>
+                <i class="fa fa-bath" aria-hidden="true"></i>
+                <p>Service</p>
+            </div>
+            <div>
+                <i class="fa fa-bug" aria-hidden="true"></i>
+                <p>Bugs</p>
+            </div>
+            <div>
+                <i class="fa fa-bus" aria-hidden="true"></i>
+                <p>Transport</p>
+            </div>
+            <div>
+                <i class="fa fa-tree" aria-hidden="true"></i>
+                <p>Nature</p>
+            </div>
+            <div>
+                <i class="fa fa-camera" aria-hidden="true"></i>
+                <p>Photos</p>
+            </div>
+
+            <div>
+                <i class="fa fa-cloud" aria-hidden="true"></i>
+                <p>Cloud</p>
+            </div>
+        </div>
+        <!-- filter bar end-->
+
+         <!-- listing -->
+    <div class="listings" id="listing">
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1560184897-ae75f418493e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1489171078254-c3365d6e359f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1031&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+        <!-- p card -->
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1464564531096-f0163633a18a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80"
+            />
+            <div>
+                <div class="card-title">
+                    <h4>Props Name</h4>
+                    <p>5.0  <i class="fa fa-star" aria-hidden="true"></i> </p>    
+                </div>
+                <p><span>By Damac</span></p>
+                <p>December 25 2022</p>
+                <p>AED 500 Per Day </p>
+            </div>
+
+        </div>
+        <!-- p card -->
+
+    </div>
+    <!-- listing end -->
+
+    <!-- featured -->
+    <div class="featured" id="featured">
+        <div class="title">
+            <h2>Featured</h2>
+        </div>
+        <div class="featured-wrapper">
+            <div class="main">
+                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" />
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1464564531096-f0163633a18a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80" />
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1464564531096-f0163633a18a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80" />
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+            </div>
+        </div>
+    </div>
+    <!-- featured end -->
+
+    <!-- popular -->
+    <div class="featured" id="popular">
+        <div class="title">
+            <h2>Popular</h2>
+        </div>
+        <div class="featured-wrapper">
+            <div>
+                <img src="https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80" />
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1464564531096-f0163633a18a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80" />
+            </div>
+            <div class="main">
+                <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1464564531096-f0163633a18a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1188&q=80" />
+            </div>
+            <div>
+                <img src="https://images.unsplash.com/photo-1560185127-6ed189bf02f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
+            </div>
+        </div>
+    </div>
+    <!-- featured end -->
+
+    <div class="to-top">
+       <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+    </div>
+
+    <!-- footer -->
+    <div class="footer">
+        <ul class="left-menu">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+
+        <ul class="right-menu">
+            <li>Privacy</li>
+            <li>Copyrights</li>
+        </ul>
+    </div>
+    <!-- footer end -->
+
+    </div>
+   
+    <script>
+        const menuBtn = document.querySelector('.mobile');
+        const navMenu = document.querySelector('.nav-menu');
+
+        const mobileMenu = () => {
+            menuBtn.classList.toggle('active');
+            navMenu.classList.toggle('active');
+        }
+
+        const closeMenu = () => {
+            navMenu.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
